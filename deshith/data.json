@@ -1,0 +1,14 @@
+[
+  { "state": "Karnataka",   "district": "Bengaluru Urban", "constituency": "Bangalore South", "position": "MP",    "name": "Tejasvi surya", "party": "BJP", "contact": "987654321x", "termStart": "2020-09-26" },
+  { "state": "Karnataka",   "district": "Bengaluru Urban", "constituency": "Basavanagudi",    "position": "MLA",   "name": "Person B", "party": "Party Y", "contact": "984501234x", "termStart": "2023-05-15" },
+  { "state": "Tamil Nadu",  "district": "Chennai",         "constituency": "Chennai South",   "position": "MP",    "name": "Person E", "party": "Party Z", "contact": "9000001111", "termStart": "2019-05-23" },
+  { "state": "Maharashtra", "district": "Mumbai City",     "constituency": "Mumbai South",    "position": "MP",    "name": "Person I", "party": "Party X", "contact": "8000001111", "termStart": "2019-05-23" },
+  { "state": "Jharkhand", "district": "dhanbad",           "constituency": "dhanbad",         "position": "MP",    "name": "Dhullu Mahto", "party": "BJP", "contact": "8000001111", "termStart": "2024-05-24" },
+  { "state": "Jharkhand", "district": "dhanbad",           "constituency": "Bhagmara",         "position": "MLA",    "name": "Satrughan Mahto", "party": "BJP", "contact": "8000001111", "termStart": "2024-05-24" },
+  { "state": "Jharkhand", "district": "dhanbad",           "constituency": "Bhagmara",         "position": "MLA",    "name": "Suraj Mahto", "party": "JMM", "contact": "9000001111", "termStart": "202x-07-xx" },
+  { "state": "Delhi", "district": "North West delhi",           "constituency": "Shalimar bagh",         "position": "CM",    "name": "Rekha gupta", "party": "BJP", "contact": "8000001111", "termStart": "2025-02-20" },
+  { "state": "Jharkhand", "district": "Shahibganj",           "constituency": "Bharhait",         "position": "CM",    "name": "Hemant soren", "party": "JMM", "contact": "786000001111", "termStart": "2024-07-04" },
+  { "state": "Uttar Pradesh", "district": "Gorakhpur",           "constituency": "Gorakhpur Urban",         "position": "CM",    "name": "Yogi Adityanath", "party": "BJP", "contact": "777000001111", "termStart": "2017-03-19" },
+  { "state": "Assam", "district": "Kamrup Metropolitan",           "constituency": "Jalukbari",         "position": "CM",    "name": "Hemanta biswa  sarma", "party": "BJP", "contact": "99000001111", "termStart": "2021-05-10" }
+
+]
