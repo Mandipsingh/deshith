@@ -1,0 +1,77 @@
+ :root {
+      font-family: system-ui, sans-serif;
+      color-scheme: light dark;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+    }
+    form {
+      display: grid;
+      gap: 0.75rem;
+      max-width: 600px;
+    }
+    label {
+      display: grid;
+      gap: 0.25rem;
+    }
+    .feed {
+      display: grid;
+      gap: 1rem;
+      padding: 0.5rem 0;
+    }
+    .post {
+      border: 1px solid #ddd;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+    }
+    .post__time {
+      display: block;
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-top: 0.5rem;
+    }
+    .post__actions {
+      margin-top: 0.5rem;
+      display: flex;
+      gap: 0.5rem;
+    }
+    .post__actions button {
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+    /* Carousel styles */
+    .post__media-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      max-width: 100%;
+      margin-top: 0.5rem;
+    }
+    .post__media {
+      display: flex;
+      transition: transform 0.4s ease;
+    }
+    .post__media img,
+    .post__media video {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-right: 0.5rem;
+      flex: 0 0 100%;
+    }
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: #fff;
+      border: none;
+      padding: 0.5rem;
+      cursor: pointer;
+      border-radius: 50%;
+      z-index: 2;
+    }
+    .carousel-btn.prev { left: 5px; }
+    .carousel-btn.next { right: 5px; }
