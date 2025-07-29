@@ -15,7 +15,7 @@
   .table-wrap { overflow-x: auto; background: #fff; border: 1px solid var(--border); border-radius: 8px; }
   table { width: 100%; border-collapse: collapse; min-width: 920px; }
   thead { background: #eef5ff; }.state_title {text-align: center;color: #fff;}
-  thead th { position: sticky; top: 0; z-index: 1; }.tab-content.your-state-tab {display: block;}
+  thead th { position: sticky; top: 0; z-index: 1; }
   th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
   tbody tr:hover { background: #fafcff; }
   .no-results { padding: 20px; text-align: center; color: #777; }
