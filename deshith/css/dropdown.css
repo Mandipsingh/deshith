@@ -33,7 +33,7 @@
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-    width: 80%;
+    width: 300px;
     transition: transform 0.3s ease, opacity 0.3s ease;
     overflow-y: auto;
     opacity: 1;
@@ -196,34 +196,36 @@
   .profile-image-wrapper {
     position: relative;
     display: inline-block;
+    display:flex;
+    left: 20px;
   }
   .profile-image-wrapper img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: 2px solid var(--border);
   }
   .edit-avatar-btn {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    background: var(--accent);
+    bottom: 2px;
+    left: 2px;
     color: #fff;
     border: none;
     border-radius: 50%;
-    width: 28px;
-    height: 28px;
+    width: 50px;
+    height: 50px;
     font-size: 1rem;
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
   }
   .follow-stats {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: right;
+    gap: 1rem;
     margin-top: 0.5rem;
+    margin-right: 14px;
   }
   .follow-stats button {
     background: none;
